@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    text-align: center;
+}
+
+body{
+    background-color: silver;
+}
+
+nav.menubutton{
+    background-color: white;
+    color: black;
+}
+
+@media (min-width:0px)  {/*telephone*/
+    img.logo{
+        width: 20%;
+    }
+    div.menu{
+        width: 100%;
+        display: flex;
+        flex-wrap: nowrap;
+        align-content: space-between;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+    }
+    main{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-content: flex-start;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    #phonegallery{
+        display: contents;
+    }
+    #nophonegallery{
+        display: none;
+    }
+}
+
+@media (min-width:960px) {
+    img.logo{
+        width: 100%;
+    }
+    div.menu{
+        width: 20%;
+        display: flex;
+        flex-wrap: nowrap;
+        align-content: space-between;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+    }
+    main{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-content: flex-start;
+        justify-content: flex-start;
+        align-items: stretch;
+    }
+    #phonegallery{
+        display: none;
+    }
+    #nophonegallery{
+        display: contents;
+    }
+}
+
+section{
+    text-align: center;
+}
+
+#warning{
+    color: red;
+}
+
+div.menu{
+    background-color: grey;
+}
+
+div.middle{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+h1{
+    text-decoration: underline;
+}
+h3{
+    text-decoration: underline;
+}
+
+legend{
+    text-decoration: underline;
+    color: rgb(42, 42, 42);
+}
+
+img.specialpenguin{
+    filter: invert();
+}
+
+footer{
+    text-align: center;
+    color: grey;
+}
