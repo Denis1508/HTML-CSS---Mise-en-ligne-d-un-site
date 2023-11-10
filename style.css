@@ -12,7 +12,7 @@ nav.menubutton{
     color: black;
 }
 
-@media (min-width:0px)  {/*telephone*/
+@media (max-width:959px)  {/*telephone*/
     img.logo{
         width: 20%;
     }
